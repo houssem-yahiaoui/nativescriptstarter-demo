@@ -9,7 +9,7 @@ exports.pageLoaded = pageLoaded;
 
 function showSnackbar() {
     
-        var text = "Hi Scotch";
+        var text = "Hi Tuts";
         var delay = 3500;
         var snackBar = android.support.design.widget.Snackbar;
         var snack = snackBar.make(frame.topmost().currentPage.android, text, delay);
